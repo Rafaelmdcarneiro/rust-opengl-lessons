@@ -1,0 +1,11 @@
+[package]
+name = "gl"
+version = "0.1.0"
+authors = ["Nerijus Arlauskas <nercury@gmail.com>"]
+
+[build-dependencies]
+gl_generator = "0.9"
+gl_generator_profiling_struct = "0.1"
+
+[features]
+debug = []
