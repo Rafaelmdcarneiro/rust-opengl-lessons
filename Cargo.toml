@@ -1,0 +1,40 @@
+[workspace]
+members = [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03",
+    "lesson-04",
+    "lesson-05",
+    "lesson-06",
+    "lesson-07",
+    "lesson-08",
+    "lesson-09",
+    "lesson-10",
+    "lesson-11",
+    "lesson-12",
+    "lesson-13",
+    "lesson-14-x",
+    "lesson-15-x",
+    "lesson-16-x",
+    "lesson-17-x",
+    "lesson-18-x",
+    "lesson-19-x",
+    "lesson-20-x",
+    "lesson-21-x",
+    "lesson-22-x",
+    "lesson-23-x",
+    "lesson-24-x-text",
+    "lesson-25-x-image-gen",
+]
+
+[profile.dev]
+codegen-units = 32
+incremental = true
+overflow-checks = true
+debug-assertions = true
+lto = false
+debug = true
+opt-level = 2
+
+[patch.crates-io]
+font-kit = { git = 'https://github.com/Nercury/font-kit', branch = "patch-lyon-deps" }
